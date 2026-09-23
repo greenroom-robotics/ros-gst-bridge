@@ -13,7 +13,7 @@ gst_bridge = { path = ".", extras = ["test"] }
 
 [package]
 name = "gst_bridge"
-version = "0.1.1"
+version = "0.1.2"
 description = "Run ROS nodes in a gstreamer pipeline"
 license = "LGPL-3.0-or-later"
 authors = ["Greenroom Robotics <software-team@greenroomrobotics.com>"]
