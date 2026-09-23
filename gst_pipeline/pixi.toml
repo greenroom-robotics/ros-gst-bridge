@@ -39,12 +39,8 @@ ros-kilted-std-msgs = "*"
 ros-kilted-diagnostic-updater = "*"
 ros-kilted-diagnostic-msgs = "*"
 gst-python = "*"
-# Capped below 1.28.5 to stay installable with the rest of the GR closure,
-# which caps there too (gst-plugins-ugly tops out at 1.28.4). The generated
-# run-export follows whatever resolves here, so an uncapped 1.28.5 build would
-# export >=1.28.5 and become uninstallable alongside greenstream.
-gstreamer = "<1.28.5"
-gst-plugins-base = "<1.28.5"
+gstreamer = "*"
+gst-plugins-base = "*"
 gst-plugins-good = "*"
 gst_bridge = { path = "../gst_bridge" }
 
