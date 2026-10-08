@@ -13,7 +13,7 @@ audio_msgs = { path = ".", extras = ["test"] }
 
 [package]
 name = "audio_msgs"
-version = "0.1.1"
+version = "0.2.0"
 description = "Message formats describing raw audio"
 license = "Apache-2.0"
 authors = ["Greenroom Robotics <software-team@greenroomrobotics.com>"]
