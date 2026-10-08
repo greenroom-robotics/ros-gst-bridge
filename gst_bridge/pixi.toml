@@ -20,7 +20,7 @@ authors = ["Greenroom Robotics <software-team@greenroomrobotics.com>"]
 
 [package.build.backend]
 name = "pixi-build-ros-gr"
-version = ">=0.8,<0.9"
+version = "*"
 
 [package.build.config]
 mode = "pixi-native"
@@ -35,9 +35,8 @@ ros-kilted-std-msgs = "*"
 ros-kilted-sensor-msgs = "*"
 ros-kilted-builtin-interfaces = "*"
 pkg-config = "*"
-# Oldest patch of the minor, so the run-export floor is >=1.28.0
-gstreamer = "1.28.0.*"
-gst-plugins-base = "1.28.0.*"
+gstreamer = "1.26.11.*"
+gst-plugins-base = "1.26.11.*"
 glib = "*"
 lttng-ust = "*"
 zlib = "*"
